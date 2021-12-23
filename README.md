@@ -1,11 +1,11 @@
-# sap-api-integrations-sales-pricing-condition-record-events   
-sap-api-integrations-sales-pricing-condition-record-events は、外部システム(特にエッジコンピューティング環境)をSAPと統合することを目的として、SAP上で発生した販売価格イベントを、SAP API で出力するマイクロサービスです。  
-sap-api-integrations-sales-pricing-condition-record-events には、サンプルのAPI Json フォーマットが含まれています。
-sap-api-integrations-sales-pricing-condition-record-events は、オンプレミス版である（＝クラウド版ではない）SAPS4HANABusinessEvents の利用を前提としています。クラウド版APIを利用する場合は、ご注意ください。  
+# sap-api-integrations-sales-pricing-events   
+sap-api-integrations-sales-pricing-events は、外部システム(特にエッジコンピューティング環境)をSAPと統合することを目的として、SAP上で発生した販売価格イベントを、SAP API で出力するマイクロサービスです。  
+sap-api-integrations-sales-pricing-events には、サンプルのAPI Json フォーマットが含まれています。
+sap-api-integrations-sales-pricing-events は、オンプレミス版である（＝クラウド版ではない）SAPS4HANABusinessEvents の利用を前提としています。クラウド版APIを利用する場合は、ご注意ください。  
 https://api.sap.com/event/SAPS4HANABusinessEvents_SalesPricingConditionRecordEvents/overview
 
 ## 動作環境  
-sap-api-integrations-sales-pricing-condition-record-events は、主にエッジコンピューティング環境における動作にフォーカスしています。  
+sap-api-integrations-sales-pricing-events は、主にエッジコンピューティング環境における動作にフォーカスしています。  
 使用する際は、事前に下記の通り エッジコンピューティングの動作環境（推奨/必須）を用意してください。  
 ・ エッジ Kubernetes （推奨）  
 ・ AION のリソース （推奨)  
@@ -13,4 +13,4 @@ sap-api-integrations-sales-pricing-condition-record-events は、主にエッジ
 ・ CPU: ARM/AMD/Intel（いずれか必須）  
 
 ## クラウド環境での利用  
-sap-api-integrations-sales-pricing-condition-record-events は、外部システムがクラウド環境である場合にSAPと統合するときにおいても、利用可能なように設計されています。  
+sap-api-integrations-sales-pricing-events は、外部システムがクラウド環境である場合にSAPと統合するときにおいても、利用可能なように設計されています。  
